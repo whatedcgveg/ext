@@ -1,0 +1,9 @@
+language: go
+go:
+- 1.9
+go_import_path: github.com/whatedcgveg/ext
+git:
+  depth: 5
+script:
+- go test -p 1 -v github.com/whatedcgveg/ext/...
+
